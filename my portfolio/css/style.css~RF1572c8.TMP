@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light|Shadows+Into+Light+Two');
+body{
+	color: #212529;
+}
+.section{
+	padding-top:50px;
+	padding-bottom: 40px;
+	min-height: 0px;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+.header-area.sticky .navbar-light{
+	background-color: #EAD4B6 !important;
+}
+#intro p{
+   	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+	font-size: 25px;
+	color: #857643;
+}
+#sec-carousel .caption-center{
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: left;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-bottom: 60px;
+	color: #000000;
+}
+#sec-carousel .caption-center h2{
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align:left;
+	color: #B5A56F;
+}
+#sec-carousel .caption-center h1{
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align:left;
+	color: #B5A56F;
+}
+.carousel-item{
+	height: 500px;
+ 	width: 1500px;
+}
+#about{
+	background: #EAD4B6;
+	margin-top: 20px;
+}
+#about h2{
+	padding: 10px;
+	text-align: center;
+	font-size: 23px;
+	text-transform: uppercase;
+	color: #FFF9FA;
+	font-weight: 750;	
+}
+#about h3{
+	padding-top: 30px;
+	text-align:left;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #FCEFEF;
+	font-weight: 770;
+}
+#about p{
+	text-align: left;
+	font-size: 13px;
+	color: #AD9B5F;
+	color: #A05050;
+}
+#services{
+	text-align: center;
+	background: #f4f4f4;
+}
+#services h3{
+	font-size: 23px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	color: #373737;
+}
+#services h2{
+	font-size: 23px;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+	color: #888888;
+}
+#services p{
+	font-size: 15px;
+	color: #C0B283;
+}
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 45px 0;
+	text-align: center;
+}
+
+footer h3 {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 26px;	
+}
+footer h3 span {
+	color: #00000;
+}
+.redes a {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #FFF;
+	display: block;
+	border-radius: 100%;
+	color: #FFF;
+	text-decoration: none;
+	
+}
+
+

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light|Shadows+Into+Light+Two');
+body{
+	color: #212529;
+}
+.section{
+	padding-top:50px;
+	padding-bottom: 40px;
+	min-height: 0px;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+.header-area.sticky .navbar-light{
+	background-color: #EAD4B6 !important;
+}
+.navbar-brand{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-weight: 580;
+}
+#intro p{
+   	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+	font-size: 25px;
+	color: #857643;
+}
+#sec-carousel .caption-center{
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: left;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-bottom: 60px;
+	color: #000000;
+}
+#sec-carousel .caption-center h2{
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align:left;
+	color: #B5A56F;
+}
+#sec-carousel .caption-center h1{
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align:left;
+	color: #B5A56F;
+}
+.carousel-item{
+	height: 480px;
+ 	width: 1350px;
+}
+#about{
+	background: #EAD4B6;
+	margin-top: 20px;
+}
+#about .img-fluid{
+	height: 500px;
+	position: absolute;
+}
+#about h2{
+	font-family: 'Shadows Into Light Two', cursive;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #FFF9FA;
+	font-weight: 750;
+	padding-bottom: 40px;
+}
+#about h3{
+	font-family: 'Shadows Into Light Two', cursive;
+	padding-top: 20px;
+	text-align:center;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #FCEFEF;
+	font-weight: 770;
+}
+#about p{
+	text-align: center;
+	font-size: 15px;
+	color: #A05050;
+}
+#habilities h1{
+	text-align: center;
+	font-weight: 700;
+	padding-top: 30px;
+	font-family: 'Shadows Into Light Two', cursive; 
+	font-size: 35px; 
+	color: #857643;
+	padding-bottom: 40px;
+	text-transform: uppercase;	
+}
+#habilities .img-fluid{
+	height: 230px;
+	width: 200px;
+	padding-bottom: 40px;
+}
+#services{
+	text-align: center;
+	background: #EAD4B6;
+}
+#services .img-fluid{
+	height: 250px;
+	width: 800px;
+}
+#services h4{
+	text-align: center;
+	font-weight: 700;
+	padding-top: 30px;
+	font-family: 'Shadows Into Light Two', cursive; 
+	font-size: 35px; 
+	color: #A05050;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+#services h2{
+	font-family: 'Shadows Into Light Two', cursive; 
+	font-size: 23px;
+	padding-bottom: 40px;
+	color: #C0B283;
+	font-weight: 500;
+}
+#services h3{
+	font-family: 'Shadows Into Light Two', cursive; 
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	color: #fff;
+	font-weight: 500;
+}
+#services p{
+	font-size: 15px;
+	color: #C0B283;
+	padding: 15px;
+}
+
+.padre{
+	position: relative;
+}
+.hijo{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: #EAD4B6;
+	text-align:center;
+	opacity: 0;
+	transition:  all 0.3s ease-in-out;
+	bottom: 100%;
+}
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.hijo h3{
+	font-size:  14px;
+	font-weight: 500;
+}
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	
+}
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+#contact{
+	padding-top: 10px;
+	background-color: #FDF6F6;
+	padding-bottom: 50px; 
+	
+}
+#contact h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 30px;
+	font-family: 'Shadows Into Light Two', cursive; 
+	font-size: 35px; 
+	text-align: center;
+	padding-bottom: 50px; 
+	color: #857643;
+}
+#contact .form-group{
+	color: #857643;	
+}
+.form-control{
+	color: #857643;	
+}
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 45px 0;
+	text-align: center;
+}
+
+footer h3 {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 26px;	
+}
+footer h3 span{
+	color: #00000;
+}
+.redes a {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #FFF;
+	display: block;
+	border-radius: 100%;
+	color: #FFF;
+	text-decoration: none;	
+}
+.redes hover{
+	color: #EAD4B6;
+}
+
+ 
